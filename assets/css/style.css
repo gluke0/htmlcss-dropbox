@@ -170,3 +170,15 @@ input:checked {
     text-align: center;
 }
 
+.target{
+    border-bottom: 1px solid grey;
+    padding: 10px;;
+}
+
+.card{
+    border: 1px solid grey;
+}
+
+.card-body{
+    padding: 20px 0 0 15px;
+}

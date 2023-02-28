@@ -32,8 +32,17 @@ body{
     width: 70%;
 }
 
+.w-60{
+    width: 60%;
+}
+
 .w-55{
     width: 55%;
+    margin: 0 auto 0 auto;
+}
+
+.w-40{
+    width: 40%;
 }
 
 .w-30{
@@ -46,6 +55,10 @@ body{
 
 .flex{
     display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 .jc-spbt{
@@ -63,6 +76,12 @@ body{
    border: none;
 }
 
+.wbutton{
+    background-color: #fff;
+    padding: 5px 6px;
+    border: 1px solid black;
+}
+
 .jc-center{
     justify-content: center;
 }
@@ -71,8 +90,36 @@ body{
     position: fixed;
 }
 
+.marB20{
+    margin-bottom: 20px;
+}
+
 .marB25{
     margin-bottom: 25px;
+}
+
+.marB30{
+    margin-bottom: 30px;
+}
+
+.marB40{
+    margin-bottom: 40px;
+}
+
+.marB100{
+    margin-bottom: 100px;
+}
+
+.marT15{
+    margin-top: 15px;
+}
+
+.marT20{
+    margin-top: 20px;
+}
+
+.marT30{
+    margin-top: 30px;
 }
 
 .marT40{
@@ -83,12 +130,24 @@ body{
     margin-top: 50px;
 }
 
+.marT100{
+    margin-top: 100px;
+}
+
+.marT130{
+    margin-top: 130px;
+}
+
 .lineh50{
     line-height: 50px;
 }
 
 .marL30{
     margin-left: 30px;
+}
+
+img{
+    width: 100%;
 }
 
 /* header */
@@ -129,7 +188,6 @@ h1{
 }
 
 .jumbo{
-    width: 100%;
     top: 60px;
 }
 
@@ -180,5 +238,16 @@ input:checked {
 }
 
 .card-body{
-    padding: 20px 0 0 15px;
+    padding: 20px 15px;
+}
+
+#hrplans{
+    width: 25%;
+}
+
+/* contatto */
+
+
+.contatto-text{
+    padding: 30px;
 }

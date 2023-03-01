@@ -110,6 +110,10 @@ body{
     margin-bottom: 40px;
 }
 
+.marB50{
+    margin-bottom: 50px;
+}
+
 .marB100{
     margin-bottom: 100px;
 }
@@ -259,3 +263,62 @@ input:checked {
 .contatto-text{
     padding: 30px;
 }
+
+/* partners */
+.square{
+    height: calc(100vw / 3);
+    width: calc(100% / 3);
+}
+
+.squarelittle{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.squarelittle img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.designit{
+    background-color: rgb(172, 209, 160);
+    border: 15px solid rgb(209, 233, 205)
+}
+
+.arizona{
+    background-color: rgb(97, 8, 43);
+}
+
+.florida{
+    background-color: rgb(0, 147, 206);
+}
+
+.topps{
+    background-color: rgb(255, 29, 29);
+}
+
+.designitbig{
+    background-color: rgb(245, 245, 245);
+}
+
+.bicycle{
+    background-color: rgb(213, 2, 32);
+}   
+
+.hearst{
+    background-color: rgb(180, 208, 231)
+}
+
+.lonely{
+    background-color: rgb(13, 36, 129);
+}
+
+.clear{
+    background-color: rgb(255, 216, 51);
+}
+
+/* prova */

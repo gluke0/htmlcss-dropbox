@@ -90,6 +90,10 @@ body{
     position: fixed;
 }
 
+.marB15{
+    margin-bottom: 15px;
+}
+
 .marB20{
     margin-bottom: 20px;
 }
@@ -245,8 +249,12 @@ input:checked {
     width: 25%;
 }
 
-/* contatto */
+.bteam{
+    margin-top: 20px;
+    margin-left: 15px;
+}
 
+/* contatto */
 
 .contatto-text{
     padding: 30px;

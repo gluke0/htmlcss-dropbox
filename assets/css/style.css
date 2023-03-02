@@ -114,6 +114,10 @@ body{
     margin-bottom: 50px;
 }
 
+.marB70{
+    margin-bottom: 70px;
+}
+
 .marB100{
     margin-bottom: 100px;
 }
@@ -334,6 +338,28 @@ input:checked {
     width: 100%;
 }
 
+/* faq */
+#faq .faqcontainer:hover .fa-chevron-down,
+#faq .faqcontainer .fa-chevron-up,
+#faq .faqcontainer p {
+  display: none;
+}
+
+#faq .faqcontainer:hover .fa-chevron-up,
+#faq .faqcontainer:hover p {
+  display: block;
+}
+
+.faqcontainer p{
+    margin-bottom: 30px;
+}
+
+.faqcontainer span{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 10px;
+}
 
 /* footer */
 footer{

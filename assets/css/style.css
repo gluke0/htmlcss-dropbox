@@ -182,6 +182,9 @@ nav{
 /* main */
 .bg-lb{
     background-color: rgb(185, 208, 229);
+}
+
+.containerjumbo{
     padding-top: 30px;
 }
 
@@ -329,8 +332,13 @@ input:checked {
 }
 
 /* prova */
+.provacontainer{
+    padding: 100px 0;
+}
+
 #provagratuita h2{
-    color: rgb(89, 20, 43)
+    color: rgb(89, 20, 43);
+    margin-left: 0;
 }
 
 #provagratuita button{

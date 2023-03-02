@@ -199,6 +199,10 @@ nav{
     margin-right: 13px;
 }
 
+header li:hover:not(.noh){
+    border-bottom: 2px solid grey;
+}
+
 /* main */
 .bg-lb{
     background-color: rgb(185, 208, 229);

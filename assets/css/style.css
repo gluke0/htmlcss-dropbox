@@ -258,6 +258,8 @@ input:checked {
     margin-left: 15px;
 }
 
+
+
 /* contatto */
 
 .contatto-text{
@@ -303,6 +305,7 @@ input:checked {
 
 .designitbig{
     background-color: rgb(245, 245, 245);
+    padding: 20px;
 }
 
 .bicycle{
@@ -322,3 +325,40 @@ input:checked {
 }
 
 /* prova */
+#provagratuita h2{
+    color: rgb(89, 20, 43)
+}
+
+#provagratuita button{
+    border: none;
+    width: 100%;
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+#footertop{
+    color: white;
+    margin: auto;
+
+}
+
+.ulfoot > li > a{
+    color: white;
+    line-height: 30px;
+    font-size: 10px;
+}
+
+#footerbottom{
+    color: grey;
+    margin-left: 20%;
+    font-size: 10px;
+}
+
+#footerbottom hr{
+    width: 10%;
+}

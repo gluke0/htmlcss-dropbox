@@ -28,8 +28,16 @@ body{
     width: 100%;
 }
 
+.w-90{
+    width: 90%;
+}
+
 .w-70{
     width: 70%;
+}
+
+.w-65{
+    width: 65%;
 }
 
 .w-60{
@@ -43,6 +51,10 @@ body{
 
 .w-40{
     width: 40%;
+}
+
+.w-35{
+    width: 35%;
 }
 
 .w-30{
@@ -76,10 +88,18 @@ body{
    border: none;
 }
 
+.button:hover{
+    background-color: rgb(0, 147, 206);
+}
+
 .wbutton{
     background-color: #fff;
     padding: 5px 6px;
     border: 1px solid black;
+}
+
+.wbutton a:hover{
+    color: lightgray;
 }
 
 .jc-center{
@@ -260,11 +280,6 @@ input:checked {
     width: 25%;
 }
 
-.bteam{
-    margin-top: 20px;
-    margin-left: 15px;
-}
-
 /* contatto */
 
 .contatto-text{
@@ -350,6 +365,11 @@ input:checked {
 /* prova */
 .provacontainer{
     padding: 100px 0;
+}
+
+.provabutton{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #provagratuita h2{

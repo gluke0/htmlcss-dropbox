@@ -9,7 +9,7 @@ ul{
     list-style-type: none;
 }
 
-a{
+a:not(#acquista){
     text-decoration: none;
     color: black;
 }
@@ -203,6 +203,7 @@ header li:hover:not(.noh){
     border-bottom: 2px solid grey;
 }
 
+
 /* main */
 .bg-lb{
     background-color: rgb(185, 208, 229);
@@ -282,6 +283,25 @@ input:checked {
 
 #hrplans{
     width: 25%;
+}
+
+.card-body ul li{
+    margin-bottom: 10px;
+    text-indent: -0.6em;
+    margin-left: 1.1em;
+    font-size: 15px;
+}
+
+.fa-check{
+    color: blue;
+}
+
+.space{
+    color: transparent
+}
+
+#acquista{
+  color: ;  
 }
 
 /* contatto */

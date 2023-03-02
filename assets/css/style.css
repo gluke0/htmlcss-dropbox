@@ -265,8 +265,6 @@ input:checked {
     margin-left: 15px;
 }
 
-
-
 /* contatto */
 
 .contatto-text{
@@ -275,8 +273,8 @@ input:checked {
 
 /* partners */
 .square{
-    height: calc(100vw / 3);
-    width: calc(100% / 3);
+   height: calc(100vw / 3); 
+   width: calc(100vw / 3);
 }
 
 .squarelittle{
@@ -285,12 +283,30 @@ input:checked {
     position: relative;
 }
 
+.square img{
+    filter: invert(1);
+}
+
 .squarelittle img{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
+}
+
+.partnercenter{
+    overflow: auto;
+}
+
+.designitbig img{
+    filter: none;
+    width: 50%;
+}
+
+#hrbigsq{
+    width: 15%;
+    margin-bottom: 10%;
 }
 
 .designit{
@@ -312,7 +328,7 @@ input:checked {
 
 .designitbig{
     background-color: rgb(245, 245, 245);
-    padding: 20px;
+    padding: 30px;
 }
 
 .bicycle{

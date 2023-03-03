@@ -9,11 +9,6 @@ ul{
     list-style-type: none;
 }
 
-/* a:not(.acquista){
-    text-decoration: none;
-    color: black;
-} */
-
 /* font */
 html{
     font-family: sans-serif;
@@ -202,7 +197,7 @@ nav{
 
 .ul-head > li{
     margin-left: 13px;
-    margin-right: 13px;;
+    margin-right: 13px;
 }
 
 .ul-head > li > a{
@@ -315,12 +310,7 @@ input:checked {
     color: transparent
 }
 
-#acquista{
-  color: ;  
-}
-
 /* contatto */
-
 .contatto-text{
     padding: 30px;
 }
